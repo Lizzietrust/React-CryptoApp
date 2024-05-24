@@ -30,10 +30,10 @@ const Navbar = () => {
   return (
     <div className="nav-container">
         <div className="logo-container">
-            <Avatar 
+{/*             <Avatar 
                 src={logo}
                 size='large'
-            />
+            /> */}
             <Typography.Title level={2} className='logo'>
                 <Link to='/'>
                     Cryptoapp
